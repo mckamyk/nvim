@@ -32,7 +32,7 @@ return require('packer').startup(function(use)
     use { 'williamboman/mason.nvim' }
     use { 'williamboman/mason-lspconfig.nvim' }
     -- use { 'neovim/nvim-lspconfig' }
-    use { 'hrsh7th/nvim-cmp', config = [[require('config.nvim-cmp')]] }
+    use { 'hrsh7th/nvim-cmp', config = [[require('nvim-cmp')]] }
     use { 'hrsh7th/cmp-nvim-lsp', after = 'nvim-cmp' }
     use { 'hrsh7th/cmp-buffer', after = 'nvim-cmp' }
     use { 'hrsh7th/cmp-path', after = 'nvim-cmp' }
